@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content"
+    />
+    <meta name="theme-color" content="#f2f2f7" />
+    <meta name="description" content="免费的语音待办。用说话记下、勾掉和删除事项。数据只存在你的手机上，无需登录。" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="语音待办" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta property="og:title" content="语音待办" />
+    <meta property="og:description" content="用说话记下今天要做的事。数据只留在这台设备上。" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_CN" />
+    <title>语音待办</title>
+    <link rel="icon" href="/yu-yin-dai-ban/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/yu-yin-dai-ban/apple-touch-icon.png" />
+    <script>
+      ;(function () {
+        var vv = window.visualViewport
+        var height = vv ? vv.height : window.innerHeight
+        var top = vv ? vv.offsetTop : 0
+        var root = document.documentElement
+        root.style.setProperty('--app-height', Math.round(height) + 'px')
+        root.style.setProperty('--app-top', Math.round(top) + 'px')
+      })()
+    </script>
+    <script type="module" crossorigin src="/yu-yin-dai-ban/assets/index-KBUIb9rR.js"></script>
+    <link rel="stylesheet" crossorigin href="/yu-yin-dai-ban/assets/index-ua0rm00v.css">
+  <link rel="manifest" href="/yu-yin-dai-ban/manifest.webmanifest"></head>
+  <body>
+    <div id="root"></div>
+    <noscript>请开启 JavaScript。语音待办在浏览器里运行，数据会保存在这台设备上。</noscript>
+  </body>
+</html>
